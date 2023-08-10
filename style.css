@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url("fundopreto.jpg");
+    background-size: cover;
+    
+    
+}
+.cabecalho {
+    display: flex;
+    gap: 100px;
+    padding: 2%;
+}
+.cabecalho__links {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+    
+
+}
+h1 {
+    color: black;
+    font-size: 40px;
+    background-color: darkgray;
+    text-size-adjust: 30px;
+    font-style:italic;
+    text-shadow: 1px 1px 1px white, 2px 2px 1px white;
+    margin-bottom: 5%;
+}
+p {
+    font-size: 20px;
+    color: aliceblue;
+    line-height: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+
+
+}
+.Rodapé {
+    background-color: black;
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    align-content: space-between;
+    position: fixed;
+    bottom: 0%;
+    left: 0px;
+    right: 0px;
+    color: aliceblue;
+
+}
+.Biografia_sec {
+    display: flex;
+    font-size: 20px;
+    color: aliceblue;
+    line-height: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    
+
+}
+.NACA {
+    display: flex;
+    text-align: justify;
+    line-height: 30px;
+    padding-right: 5%;
+}
+@media(max-width: 1000px){
+     .Biografia_sec{
+        flex-direction: column;
+        font-size: 20px;
+        margin: 30px
+        
+
+    };
+    .NACA{
+         flex-direction: column;
+         gap: 20px;
+         margin: 2%;
+    }
+}
+
+
+
+
